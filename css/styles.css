@@ -167,11 +167,11 @@ span.header-logo-web{
     color: var(--text-color);
 }
 .section-portfolio-link h2{
-    
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em; 
+    text-transform: capitalize;
 }
 .section-portfolio-link p{
     font-size: 16px;
