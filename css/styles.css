@@ -36,6 +36,8 @@ button {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
+    letter-spacing: 0.04em;
+    font-family: 'Roboto';
     
 }
 
@@ -74,9 +76,7 @@ a {
 }
 body{
     font-family: Roboto, sans-serif;
-    font-weight: 400;
     font-size: 16px;
-    line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--text-color);
     background-color: var(--white-color);
@@ -196,18 +196,14 @@ span.header-logo-web{
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
+    letter-spacing: 0.02em;
     text-transform: capitalize;
 }
 .section-team{
     background-color: var(--light-bbackgrounds-color);
 }
-.section-team h2 {
-    color: var(--title-text-color);
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.11;
-    text-transform: capitalize;
-}
+
+
 .section-team li{
     background-color: var(--white-color);
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
@@ -218,11 +214,13 @@ span.header-logo-web{
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
+    letter-spacing: 0.02em;
 }
 .section-team p{
     color: var(--text-color);
     font-size: 16px;
     line-height: 1.5;
+    letter-spacing: 0.02em;
     
 }
 .section-footer{
